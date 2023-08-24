@@ -1,0 +1,95 @@
+[
+  {
+    "id": "di_mf_gremlin",
+    "source": "GMS",
+    "name": "Gremlin",
+    "mechtype": [
+      "Striker"
+    ],
+    "license_level": 0,
+    "description": "<p>Placeholder description</p>",
+    "mounts": [
+      "Main",
+      "Aux/Aux"
+    ],
+    "stats": {
+      "size": 0.5,
+      "stress": 4,
+      "structure": 4,
+      "armor": 1,
+      "hp": 6,
+      "evasion": 12,
+      "edef": 10,
+      "heatcap": 5,
+      "repcap": 3,
+      "sensor_range": 3,
+      "tech_attack": 0,
+      "save": 10,
+      "speed": 10,
+      "sp": 5
+    },
+    "traits": [
+      {
+        "name": "Anklebiter",
+        "description": "The Gremlin is capable of taking the JOCKEY action against mechs of a larger SIZE instead of grappling. It ignores engagement from larger characters and can freely move through and share the spaces they occupy (even if they’re hostile). While occupying the same spaces as any character, it gains soft cover, even from that character.",
+        "synergies": [
+          {
+            "locations": [
+              "grapple"
+            ],
+            "detail": "The Gremlin is capable of taking the JOCKEY action against mechs of a larger SIZE instead of grappling."
+          },
+          {
+            "locations": [
+              "active_effects"
+            ],
+            "detail": "It ignores engagement from larger characters and can freely move through and share the spaces they occupy (even if they’re hostile). While occupying the same spaces as any character, it gains soft cover, even from that character."
+          }
+        ]
+      },
+      {
+        "name": "Slippery Bastard",
+        "description": "1/round, you can DISENGAGE as a quick action, moving 3 spaces in any direction. This movement ignores engagement and doesn't provoke reactions.",
+        "actions": [
+          {
+            "name": "Slippery Bastard",
+            "activation": "Quick",
+            "detail": "DISENGAE and move 3 spaces in any direction, this ignores engagment and doesn't provoke reactions."
+          }
+        ]
+      },
+      {
+        "name": "Between the Cracks",
+        "description": "1/round, deal +1d6 bonus AP damage a successful auxillary melee attack against a target that is either prone or engaged with another character.",
+        "synergies": [
+          {
+            "locations": [
+              "weapon"
+            ],
+            "weapon_types": [
+              "Melee"
+            ],
+            "weapon_sizes": [
+              "Aux"
+            ],
+            "detail": "1/round, deal +1d6 bonus AP damage a successful auxillary melee attack against a target that is either prone or engaged with another character."
+          }
+        ]
+      },
+       {
+        "name": "Exposed Reactor",
+        "description": "The Gremlin receives +1 Difficulty on ENGINEERING checks and saves.",
+        "synergies": [
+          {
+            "locations": [
+              "engineering",
+              "skill_check"
+            ],
+            "detail": "The Gremlin takes +1 difficulty on Engineering checks and saves."
+          }
+        ]
+      }
+    ],
+    
+    
+  
