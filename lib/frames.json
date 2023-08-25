@@ -90,6 +90,16 @@
         ]
       }
     ],
+    "core_system": {
+      "name": "Icarus Flight Module",
+      "description": "The back of the Gremlin opens up into a propulsion system that resembles a set of wings.",
+      "active_name": "Freedom Restrained",
+      "active_effect": "<p>For the rest of the scene, you can fly for your movement. You have to end your turn on solid ground or on top of a larger mech, otherwise you begin to fall. If you try to land on a larger mech they have to make a HULL save unless they are willing. While in the air, ranged attacks have +1 Difficulty against you.</p>",
+      "activation": "Quick"
+    },
+    "license_id": "di_mf_gremlin"
+  }
+]
     
     
   
